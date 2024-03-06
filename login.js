@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
     } 
     if (username === 'Play' && password === 'porn') {
         
-        window.location.href ="https://godrivelive.github.io/own/video.html";
+        window.location.href ="https://godrivelive.github.io/own/Video.html";
     } else {
         message.textContent = 'Ato soto kn re beda -_- ?';
     }
