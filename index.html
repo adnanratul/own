@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type secret code</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1 style="text-align:center;"><span class="auto-type"></span></h1>
+        
+                  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+var typed = new Typed(".auto-type", { 
+strings: ["Type Bro Code"],
+typeSpeed: 150,
+  })
+</script>
+    <form id="login-form">
+        <input type="text" placeholder="file type" id="username" name="username" required>
+        <input type="password" placeholder="code" id="password" name="password" required>        
+        <button type="submit">Done</button>
+    </form>
+    <p id="message"></p>
+
+    <script src="login.js"></script>
+</body>
+</html>
